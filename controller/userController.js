@@ -89,4 +89,10 @@ module.exports.updateProfile = async (req, res) => {
       return res.status(500).json({ message: "Error updating profile", status: false });
     }
   };
-  
+  module.exports.deleteProfile = async(req,res)=>{
+    try {
+        
+    } catch (error) {
+        console.log("error =",error);        
+    }
+  }
